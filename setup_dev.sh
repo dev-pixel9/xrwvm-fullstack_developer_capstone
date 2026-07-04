@@ -27,8 +27,9 @@ python3 -m pip install -U -r requirements.txt
 
 # 3. Database Migrations
 echo "Running Django migrations..."
+python3 manage.py makemigrations djangoapp
 python3 manage.py makemigrations
-python3 manage.py migrate
+python3 manage.py migrate --run-syncdb
 
 echo ""
 echo "=========================================================="
