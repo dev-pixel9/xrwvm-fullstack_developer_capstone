@@ -1,1 +1,1 @@
-Full Stack Developer Capstone Project - Car Dealership
+Full Stack Developer Capstone Project - Car Dealerships
