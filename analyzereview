@@ -1,0 +1,2 @@
+theia@theiadocker-pixel9softwa:/home/project/xrwvm-fullstack_developer_capstone$ curl -X GET "https://sentianalyzer.2bvfe9kgwsx9.us-south.codeengine.appdomain.cloud/analyze/Fantastic%20services"
+{"sentiment": "positive"}

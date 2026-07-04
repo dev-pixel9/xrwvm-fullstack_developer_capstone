@@ -1,0 +1,2 @@
+theia@theiadocker-pixel9softwa:/home/project/xrwvm-fullstack_developer_capstone$ curl -X GET "http://localhost:8000/djangoapp/logout"
+{"userName": ""}
