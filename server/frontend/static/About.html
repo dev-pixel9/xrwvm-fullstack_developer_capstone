@@ -1,6 +1,7 @@
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
@@ -26,37 +27,40 @@
   </nav>
   
     <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
+      <div class="banner" name="about-header" style="text-align: center; padding: 20px; background-color: #f8f9fa;">
+        <h1>About Us</h1>
+        <p style="font-size: 1.1em; color: #555;">
+          Welcome to Best Cars dealership, home to the best cars in North America. We deal in selling domestic and imported cars at reasonable prices. Our mission is to provide you with the ultimate dealership experience.
+        </p>
       </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+      <div style="display: flex;flex-direction: row; margin:auto; justify-content: space-around; width: 100%; padding: 20px 0;">
+      <div class="card" style="width: 30%; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <img class="card-img-top" src="/static/person.png" alt="John Doe" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+        <div class="card-body" style="padding: 15px; text-align: center;">
+          <p class="title" style="font-weight: bold; font-size: 1.2em; margin-bottom: 5px;">John Doe</p>
+          <p style="color: #888; font-style: italic; margin-bottom: 10px;">President & CEO</p>
+          <p class="card-text" style="font-size: 0.95em; color: #666; min-height: 60px;">John has over 20 years of experience in the automotive industry and is dedicated to providing the best car buying experience.</p>
+          <p style="font-weight: 500; color: darkturquoise;">johndoe@bestcars.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+      <div class="card" style="width: 30%; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <img class="card-img-top" src="/static/person.png" alt="Jane Smith" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+        <div class="card-body" style="padding: 15px; text-align: center;">
+          <p class="title" style="font-weight: bold; font-size: 1.2em; margin-bottom: 5px;">Jane Smith</p>
+          <p style="color: #888; font-style: italic; margin-bottom: 10px;">Sales Manager</p>
+          <p class="card-text" style="font-size: 0.95em; color: #666; min-height: 60px;">Jane is passionate about helping customers find the perfect vehicle that fits their lifestyle and budget.</p>
+          <p style="font-weight: 500; color: darkturquoise;">janesmith@bestcars.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+      <div class="card" style="width: 30%; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <img class="card-img-top" src="/static/person.png" alt="Bob Johnson" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+        <div class="card-body" style="padding: 15px; text-align: center;">
+          <p class="title" style="font-weight: bold; font-size: 1.2em; margin-bottom: 5px;">Bob Johnson</p>
+          <p style="color: #888; font-style: italic; margin-bottom: 10px;">Lead Mechanic</p>
+          <p class="card-text" style="font-size: 0.95em; color: #666; min-height: 60px;">Bob ensures every car on our lot undergoes a rigorous multi-point inspection and meets our highest quality standards.</p>
+          <p style="font-weight: 500; color: darkturquoise;">bobjohnson@bestcars.com</p>
         </div>
       </div>
     </div>

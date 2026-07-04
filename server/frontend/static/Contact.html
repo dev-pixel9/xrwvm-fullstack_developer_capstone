@@ -1,0 +1,73 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <div class="banner" style="text-align: center; padding: 20px; background-color: #f8f9fa; border-top-left-radius: 8px; border-top-right-radius: 8px;">
+      <h1>Contact Us</h1>
+      <p style="font-size: 1.1em; color: #555;">We would love to hear from you. Get in touch with our team today!</p>
+    </div>
+    
+    <div style="display: flex; flex-direction: row; padding: 30px; justify-content: space-between;">
+      <!-- Contact Info Card -->
+      <div style="width: 45%; padding-right: 20px;">
+        <h3 style="color: darkturquoise; margin-bottom: 20px;">Dealership Contact Information</h3>
+        <p><strong>Address:</strong> 123 Car Avenue, Auto City, AC 90210, United States</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Email:</strong> support@bestcars.com</p>
+        
+        <h4 style="margin-top: 30px; margin-bottom: 10px; color: #555;">Business Hours</h4>
+        <ul style="list-style: none; padding-left: 0; color: #666;">
+          <li>Monday - Friday: 9:00 AM - 7:00 PM</li>
+          <li>Saturday: 10:00 AM - 5:00 PM</li>
+          <li>Sunday: Closed</li>
+        </ul>
+      </div>
+      
+      <!-- Contact Form Card -->
+      <div style="width: 50%; border-left: 1px solid #eee; padding-left: 30px;">
+        <h3 style="color: darkturquoise; margin-bottom: 20px;">Send Us a Message</h3>
+        <form style="display: flex; flex-direction: column; gap: 15px;">
+          <div>
+            <label style="display: block; margin-bottom: 5px; font-weight: 500;">Full Name</label>
+            <input type="text" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" placeholder="John Doe">
+          </div>
+          <div>
+            <label style="display: block; margin-bottom: 5px; font-weight: 500;">Email Address</label>
+            <input type="email" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" placeholder="john@example.com">
+          </div>
+          <div>
+            <label style="display: block; margin-bottom: 5px; font-weight: 500;">Message</label>
+            <textarea style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; height: 100px;" placeholder="How can we help you today?"></textarea>
+          </div>
+          <button type="button" style="background-color: darkturquoise; color: white; border: none; padding: 10px; border-radius: 4px; font-weight: bold; cursor: pointer;">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</html>
